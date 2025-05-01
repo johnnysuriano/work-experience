@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BMI Calculator with Dogs</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+        <h1>BMI Calculator</h1>
+        <form id="bmi_info">
+            <p><div onclick="unitKG()">KG</div> <div onclick="unitLBS()">LBS</div></p>
+            <label for="weight">Weight (In KG):</label><br>
+            <input type="text" id="weight" name="Weight"><br>
+            <label for="height">Height (In M):</label><br>
+            <input type="text" id="height" name="height"><br>
+            <button type='button' onclick="submitBMI()">Calculate BMI</button>
+        </form>
+        <div class="results">
+            <h2>Your Results</h2>
+            <p>Your BMI: <span id="bmi">--</span></p>
+            <p>Category: <span id="bmi-category">--</span></p>
+            <div class="dog-image-section">
+                <h3>Random Dog</h3>
+                <div id="api-result">Click the Calculate BMI button to get a random dog!</div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

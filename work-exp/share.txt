@@ -1,0 +1,4 @@
+Go to this link in chrome to access the VS Code live share
+https://prod.liveshare.vsengsaas.visualstudio.com/join?37D4FD7C9EBCA91A1D178676203D066E6693
+
+
